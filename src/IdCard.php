@@ -91,7 +91,7 @@ class IdCard
 
         $sum = 0;
 
-        for ($i = 17; $i > 0; --$i) {
+        for ($i = 17; $i > 0; $i--) {
             $s = pow(2, $i) % 11;
 
             $sum += $s * $idcard[17 - $i];
