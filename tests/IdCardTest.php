@@ -23,22 +23,22 @@ class IdCardTest extends TestCase
 
     public function testResolveMatchRuleForMonths()
     {
-        $this->assertTrue(IdCard::resolveMatchRuleForMonths() === '((0[1-9])|(10|11|12))');
+        $this->assertTrue('((0[1-9])|(10|11|12))' === IdCard::resolveMatchRuleForMonths());
     }
 
     public function testResolveMatchRuleForDays()
     {
-        $this->assertTrue(IdCard::resolveMatchRuleForDays() === '(([0-2][1-9])|10|20|30|31)');
+        $this->assertTrue('(([0-2][1-9])|10|20|30|31)' === IdCard::resolveMatchRuleForDays());
     }
 
     public function testResolveMatchRuleForRandoms()
     {
-        $this->assertTrue(IdCard::resolveMatchRuleForRandoms() === '\d{3}');
+        $this->assertTrue('\d{3}' === IdCard::resolveMatchRuleForRandoms());
     }
 
     public function testResolveMatchRuleForCheckcode()
     {
-        $this->assertTrue(IdCard::resolveMatchRuleForCheckcode() === '[0-9xX]{1}');
+        $this->assertTrue('[0-9xX]{1}' === IdCard::resolveMatchRuleForCheckcode());
     }
 
     public function testResolveMatchRuleForYears()
