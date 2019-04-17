@@ -3,25 +3,53 @@
 <p align="center"> .</p>
 
 
-## Installing
+## 安装
 
 ```shell
 $ composer require godruoyi/laravel-idcard-validator -vvv
 ```
 
-## Usage
+## 使用
 
-TODO
+Laravel 版本小于 5.5 时，需要手动在 `app\config.php` 添加 service provider：
 
-## Contributing
+```php
+Godruoyi\LaravelIdCard\ServiceProvider::class,
+```
 
-You can contribute in one of three ways:
+通过 Validator 面门使用：
 
-1. File bug reports using the [issue tracker](https://github.com/godruoyi/laravel-idcard-validator/issues).
-2. Answer questions or fix bugs on the [issue tracker](https://github.com/godruoyi/laravel-idcard-validator/issues).
-3. Contribute new features or update the wiki.
+```php
+Validator::make([
+    'idcard' => '110101199801012385',
+], [
+    'idcard' => 'required|string|idcard',
+]);
+```
 
-_The code contribution process is not very formal. You just need to make sure that you follow the PSR-0, PSR-1, and PSR-2 coding guidelines. Any new code contributions must be accompanied by unit tests where applicable._
+通过 FormRequest 使用：
+
+```php
+class UserRequest extends FormRequest
+{
+    /**
+     * Get the validation rules that apply to the request.
+     *
+     * @return array
+     */
+    public function rules()
+    {
+        return [
+            'idcard' => 'required|idcard',
+
+            // 或者
+            'idcard' => ['required', new \Godruoyi\LaravelIdCard\Rule],
+        ];
+    }
+}
+```
+
+验证不通过时，默认返回 `无效的身份证号码`。
 
 ## License
 
