@@ -2,6 +2,14 @@
     "name": "godruoyi/laravel-idcard-validator",
     "description": "Laravel 身份证验证器",
     "license": "MIT",
+    "keywords": [
+        "laravel idcard",
+        "identity",
+        "身份证",
+        "身份证验证",
+        "laravel 身份证验证"
+    ],
+    "homepage": "https://github.com/godruoyi/laravel-idcard-validator",
     "authors": [
         {
             "name": "Godruoyi",

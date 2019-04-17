@@ -97,7 +97,7 @@ class IdCard
             $sum += $s * $idcard[17 - $i];
         }
 
-        return self::$securityCodes[$sum % 11] == $idcard[17];
+        return (int) self::$securityCodes[$sum % 11] === (int) $idcard[17];
     }
 
     /**

@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/godruoyi/laravel-idcard-validator.svg?branch=master)](https://travis-ci.org/godruoyi/laravel-idcard-validator)
 [![StyleCI](https://github.styleci.io/repos/181809132/shield?branch=master)](https://github.styleci.io/repos/181809132)
 [![Latest Stable Version](https://poser.pugx.org/godruoyi/laravel-idcard-validator/v/stable)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
+[![Latest Unstable Version](https://poser.pugx.org/godruoyi/laravel-idcard-validator/v/unstable)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
 [![Total Downloads](https://poser.pugx.org/godruoyi/laravel-idcard-validator/downloads)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
 [![License](https://poser.pugx.org/godruoyi/laravel-idcard-validator/license)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/godruoyi/laravel-idcard-validator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/godruoyi/laravel-idcard-validator/?branch=master) 
