@@ -81,9 +81,9 @@ class IdCard
             return false;
         }
 
-        $month = substr($idcard, 10, 2);
-        $day = substr($idcard, 12, 2);
-        $year = substr($idcard, 6, 4);
+        $month = (int) substr($idcard, 10, 2);
+        $day = (int) substr($idcard, 12, 2);
+        $year = (int) substr($idcard, 6, 4);
 
         if (!checkdate($day, $month, $year)) {
             return false;
@@ -91,7 +91,7 @@ class IdCard
 
         $sum = 0;
 
-        for ($i = 17; $i > 0; --$i) {
+        for ($i = 17; $i > 0; $i --) {
             $s = pow(2, $i) % 11;
 
             $sum += $s * $idcard[17 - $i];
