@@ -21,6 +21,26 @@ class IdCardTest extends TestCase
         $this->assertTrue('[1-9]\d{5}' === $areacode);
     }
 
+    public function testResolveMatchRuleForMonths()
+    {
+        $this->assertTrue(IdCard::resolveMatchRuleForMonths() === '((0[1-9])|(10|11|12))');
+    }
+
+    public function testResolveMatchRuleForDays()
+    {
+        $this->assertTrue(IdCard::resolveMatchRuleForDays() === '(([0-2][1-9])|10|20|30|31)');
+    }
+
+    public function testResolveMatchRuleForRandoms()
+    {
+        $this->assertTrue(IdCard::resolveMatchRuleForRandoms() === '\d{3}');
+    }
+
+    public function testResolveMatchRuleForCheckcode()
+    {
+        $this->assertTrue(IdCard::resolveMatchRuleForCheckcode() === '[0-9xX]{1}');
+    }
+
     public function testResolveMatchRuleForYears()
     {
         $year = IdCard::resolveMatchRuleForYears();
