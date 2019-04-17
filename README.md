@@ -5,7 +5,8 @@
 [![Latest Stable Version](https://poser.pugx.org/godruoyi/laravel-idcard-validator/v/stable)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
 [![Total Downloads](https://poser.pugx.org/godruoyi/laravel-idcard-validator/downloads)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
 [![License](https://poser.pugx.org/godruoyi/laravel-idcard-validator/license)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/godruoyi/laravel-idcard-validator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/godruoyi/laravel-idcard-validator/?branch=master) 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/godruoyi/laravel-idcard-validator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/godruoyi/laravel-idcard-validator/?branch=master) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgodruoyi%2Flaravel-idcard-validator.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgodruoyi%2Flaravel-idcard-validator?ref=badge_shield)
+
 
 ## 安装
 
@@ -58,3 +59,5 @@ class UserRequest extends FormRequest
 ## License
 
 MIT
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgodruoyi%2Flaravel-idcard-validator.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgodruoyi%2Flaravel-idcard-validator?ref=badge_large)
