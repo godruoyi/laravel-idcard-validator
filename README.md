@@ -7,6 +7,8 @@
 [![Total Downloads](https://poser.pugx.org/godruoyi/laravel-idcard-validator/downloads)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
 [![License](https://poser.pugx.org/godruoyi/laravel-idcard-validator/license)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/godruoyi/laravel-idcard-validator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/godruoyi/laravel-idcard-validator/?branch=master) 
+[![Code Coverage](https://scrutinizer-ci.com/g/godruoyi/laravel-idcard-validator/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/godruoyi/laravel-idcard-validator/?branch=master) 
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgodruoyi%2Flaravel-idcard-validator.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgodruoyi%2Flaravel-idcard-validator?ref=badge_shield)
 
 ## 安装
 
@@ -16,7 +18,7 @@ $ composer require godruoyi/laravel-idcard-validator -vvv
 
 ## 使用
 
-Laravel 版本小于 5.5 时，需要手动在 `app\config.php` 添加 service provider：
+Laravel 版本小于 5.5 时，需要手动在 `app\config.php` 添加 `service provider`：
 
 ```php
 Godruoyi\LaravelIdCard\ServiceProvider::class,
@@ -58,4 +60,4 @@ class UserRequest extends FormRequest
 
 ## License
 
-MIT
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fgodruoyi%2Flaravel-idcard-validator.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fgodruoyi%2Flaravel-idcard-validator?ref=badge_large)
