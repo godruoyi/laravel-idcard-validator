@@ -1,12 +1,10 @@
 <h1 align="center"> laravel-idcard-validator </h1>
 
-<p align="center">
-    [![Build Status](https://travis-ci.org/godruoyi/laravel-idcard-validator.svg?branch=master)](https://travis-ci.org/godruoyi/laravel-idcard-validator)
-    [![StyleCI](https://github.styleci.io/repos/181809132/shield?branch=master)](https://github.styleci.io/repos/181809132)
-    [![Latest Stable Version](https://poser.pugx.org/godruoyi/laravel-idcard-validator/v/stable)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
-    [![Total Downloads](https://poser.pugx.org/godruoyi/laravel-idcard-validator/downloads)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
-    [![License](https://poser.pugx.org/godruoyi/laravel-idcard-validator/license)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
-</p>
+[![Build Status](https://travis-ci.org/godruoyi/laravel-idcard-validator.svg?branch=master)](https://travis-ci.org/godruoyi/laravel-idcard-validator)
+[![StyleCI](https://github.styleci.io/repos/181809132/shield?branch=master)](https://github.styleci.io/repos/181809132)
+[![Latest Stable Version](https://poser.pugx.org/godruoyi/laravel-idcard-validator/v/stable)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
+[![Total Downloads](https://poser.pugx.org/godruoyi/laravel-idcard-validator/downloads)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
+[![License](https://poser.pugx.org/godruoyi/laravel-idcard-validator/license)](https://packagist.org/packages/godruoyi/laravel-idcard-validator)
 
 ## 安装
 
