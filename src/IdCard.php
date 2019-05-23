@@ -85,7 +85,7 @@ class IdCard
         $day = (int) substr($idcard, 12, 2);
         $year = (int) substr($idcard, 6, 4);
 
-        if (! checkdate($month, $day, $year)) {
+        if (!checkdate($month, $day, $year)) {
             return false;
         }
 
