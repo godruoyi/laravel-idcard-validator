@@ -67,6 +67,7 @@ class IdCardTest extends TestCase
         $this->assertTrue(IdCard::passes('130203200101015873'));
         $this->assertTrue(IdCard::passes('500223200004069022'));
         $this->assertTrue(IdCard::passes('110101199801012385'));
+        $this->assertTrue(IdCard::passes('500106199509203533'));
         $this->assertFalse(IdCard::passes('2121'));
         $this->assertFalse(IdCard::passes('500223200004069021'));
         $this->assertFalse(IdCard::passes('11010119980101238X'));
