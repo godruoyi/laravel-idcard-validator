@@ -10,17 +10,15 @@
         "laravel 身份证验证"
     ],
     "homepage": "https://github.com/godruoyi/laravel-idcard-validator",
-    "authors": [
-        {
-            "name": "Godruoyi",
-            "email": "godruoyi@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Godruoyi",
+        "email": "godruoyi@gmail.com"
+    }],
     "require": {
-        "laravel/framework": "5.*"
+        "laravel/framework": "5.* || ^6.0 || ^7.0 || ^8.0"
     },
     "require-dev": {
-        "laravel/framework": "^5.7",
+        "laravel/framework": "^5.7 || ^7.0",
         "mockery/mockery": "^1.2",
         "phpunit/phpunit": "~7",
         "orchestra/testbench": "^3.5"
